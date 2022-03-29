@@ -1,0 +1,310 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v0.9.36",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Plane",
+      "scale": [
+        4.06439208984375,
+        1,
+        1
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "Plane.001",
+      "scale": [
+        4.06439208984375,
+        1,
+        2.9950520992279053
+      ],
+      "translation": [
+        -8.124972343444824,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "Plane.002",
+      "scale": [
+        4.06439208984375,
+        1,
+        2.9950520992279053
+      ],
+      "translation": [
+        4.047374725341797,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Plane",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "mode": 4,
+          "material": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Plane.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "mode": 4,
+          "material": 1,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Plane.002",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "indices": 8,
+          "mode": 4,
+          "material": 2,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 2,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "componentType": 5123,
+      "count": 6,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        1.0009770395701025,
+        0.0009770395701025891,
+        1.0009770395701025
+      ],
+      "min": [
+        -1.0009770395701025,
+        -0.0009770395701025891,
+        -1.0009770395701025
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC2"
+    },
+    {
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        1.0006126166554736,
+        0.0012377014044266388,
+        1.0009770395701025
+      ],
+      "min": [
+        -0.0008529426996802258,
+        -0.10819073044706334,
+        -1.0009770395701025
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2"
+    },
+    {
+      "componentType": 5123,
+      "count": 336,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 190,
+      "max": [
+        1.0012097910199447,
+        4.067903773052027,
+        1.0021713882990446
+      ],
+      "min": [
+        -0.0018621842687631968,
+        -0.00198628113918556,
+        -1.0019862811391855
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 190,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 190,
+      "type": "VEC2"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 168
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 168,
+      "byteLength": 220
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 392,
+      "byteLength": 652
+    }
+  ],
+  "buffers": [
+    {
+      "name": "Test-draco",
+      "byteLength": 1048,
+      "uri": "data:application/octet-stream;base64,RFJBQ08CAgEBAAAABAICAgAAAS//ARH/ARH/ARED/wABAAAAAQAAAQAJAwAAAgEBCQMAAQMBAwkCAAICAQEBAAMDATABEAMAJIKRAgAAAAD/BwAAAACAvwAAAAAAAIC/AAAAQAsGAwEBAwEBQAEA/wAAAH8AAAD/AkRACAUBAQADAwEwARADACSCGQACAAAAAQEgAAAAAP8DAAAAAAAAAAAAAAAAgD8KRFJBQ08CAgEBAAAACAwCCwEAA3+qFAEBEFUESzsrRv8CNUED/wABAAEAAQAAAQAJAwAAAgEBCQMAAQMBAwkCAAICAQEBAAwDAQgBCBMBCAcBKAQAfhyF/gdAAPoPAAAAcAOA/t9GAPoPAAHA/wAAAAAAAAD/BwAAACACOdqS270AAIC/AAAAQAsGAwEBAwEBQAEA/wAAAH8AAAD/AqFBCAUBAQALAwEQARgTAQgDARAEAMiQpwsAN/L/AEAzAAUAAACaA3a+gQAAAAD/AwAAAAAAAAAAAAAAAIA/CgAAAABEUkFDTwICAQEAAAA6cAJvAgAc39pWVWm1SlHVr1WlVaVVpVWlVaWPKtWGoihVFAEBEG8XlLA287JuOCCwN07iBQh9itVJNIeb54PyCQiXqU9AV21RgAP/AAEAAQABAQABAAkDAAACAQEJAwABAwEDCQIAAgIEAQEADAOREB0BNQJpBAkLUQNRA2kEaQRRA/EJGTDSJ0l9riG82JMH3mRlq1Pt0TxAN6eBfoJA8DY1HwBIDgF4QLUBAPwAsBkDYgB4GwAAAEgHAIAtjgjYGwEAD24AgB4AFgcAAAD+wRUAAJAAwLq/AACA7wJwwM0AAAB43UfgXQADKqB8AAAgwETQig6wAXgA5gH6AdgDUB8APwDyAbQIDCMAYAT4wDkAgAOIKQCAAAzAA0AZZj5rCregrTRYaePGvIEhVQZcHqpq8oQEQAPAhoAAAAAA/wcAAAAgAjkAAAAAAACAv/8bgkALBgMBAQb/ARUoeQysrAdY////01i1A7kFUXak2ZPe6QkIW0K5oi37fv6muygnxJd5Rd7pDXCGC8urxb9XyMYZwQUQonTp72z99p5Px+7ZRdSS/BDhWI96K8vT4fL7J1hgj/toF/8od3tGgv8AAAB/AAAA/QTOm9SPCAUBAQALAzUMCQIZBgUBDQMdByEIKQopChEEGgV/NVefFt3YazOk2IcAuVH7/omizIHXxg56ALMAzM4BKIC0WwcAzAK4ziW8IypALACtACqgmAEOkIIA3lbZAgvA+mHaPwA0A7AIUABvoUAFVADg6RAAQOoNAPBmNQAAeCoBiAMgQAQAuADIFBASQEcA/EQkAjUAAABICHjrvVLmu8eCAAAAAP8DAAAAAAAAAAAAAAAAgD8KAAAAAA=="
+    }
+  ],
+  "materials": [
+    {
+      "name": "default",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    },
+    {
+      "name": "default",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    },
+    {
+      "name": "default",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}
