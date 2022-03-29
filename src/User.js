@@ -61,7 +61,6 @@ export function Plattform(props) {
     position: [0, 1, 0], 
     ...props }
   ))
-
   return (
     <mesh ref={ref}>
       <boxGeometry args={[20, 1, 60]}/>
@@ -77,10 +76,24 @@ export function BorderRightBuilding(props) {
     position: [0, 5, -25.5], 
     ...props }
   ))
-
   return (
     <mesh ref={ref}>
       <boxGeometry args={[19, 9, 7]}/>
+      <meshLambertMaterial color="#ffffff" opacity={0} transparent />
+    </mesh>
+  )
+}
+export function BorderStairs(props) {
+  const [ref, api] = useBox(() => ({ 
+    mass: 5, 
+    type: "Static", 
+    position: [4.5, 3.8, -16], 
+    rotation: [Math.PI / 4.7, 0, 0],
+    ...props }
+  ))
+  return (
+    <mesh ref={ref}>
+      <boxGeometry args={[5, 3, 17]}/>
       <meshLambertMaterial color="#ffffff" opacity={0} transparent />
     </mesh>
   )

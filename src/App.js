@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import styles from './App.module.css';
 import TrainStation from "./Trainstation";
 import { Physics } from '@react-three/cannon'
-import { BorderRightBuilding, Cube, Plane, Plattform } from "./User";
+import { BorderRightBuilding, BorderStairs, Cube, Plane, Plattform } from "./User";
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
           {/* <Plane /> */}
           <Plattform args={[20, 1, 60]}/>
           <BorderRightBuilding args={[19, 9, 7]}/>
+          <BorderStairs args={[4, 3, 17]}/>
           <Cube receiveShadow castShaddow />
         </Physics>
         <directionalLight
